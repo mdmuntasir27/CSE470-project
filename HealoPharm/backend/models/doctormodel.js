@@ -22,9 +22,14 @@ const doctorSchema = mongoose.Schema(
             required: true,
             trim: true,
         },
+        dcapacity: {
+            type: Number,
+            required: true,
+        },
         availableSlots: {
-            type: [String],
-            default: [],
+            type: String,
+            required: true,
+            trim: true,
         },
     }, {
         timestamps: true,
