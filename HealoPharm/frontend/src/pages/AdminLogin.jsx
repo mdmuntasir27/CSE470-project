@@ -43,7 +43,7 @@ export const AdminLogin = () => {
         {error && <p style={styles.errorText}>{error}</p>}
         <form onSubmit={handleSubmit} style={styles.form}>
           <div style={styles.fieldContainer}>
-            <label style={styles.label}>E-mail:</label>
+            <label style={styles.label}>Username:</label>
             <input
               type="text"
               name="username"

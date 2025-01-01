@@ -104,6 +104,23 @@ const ShowDoctorAppointment = () => {
                     Go to Doctor Dashboard
                 </button>
             </div>
+
+            <div style={{ textAlign: "center"}}>
+                <button
+                    onClick={() => navigate("/doctor/prescription")}
+                    style={styles.goBackButton}
+                >
+                    Patient's Prescription
+                </button>
+            </div>
+            <div style={{ textAlign: "center"}}>
+                <button
+                    onClick={() => navigate("/doctor/addTest")}
+                    style={styles.goBackButton}
+                >
+                    Add test on behalf of a patient
+                </button>
+            </div>
         </div>
     );
 };

@@ -71,6 +71,11 @@ export const PatientLogin1 = () => {
             />
           </div>
           <button type="submit" style={{...styles.button, backgroundColor: buttonColor}} onMouseEnter={()=>setButtonColor("#283593")} onMouseLeave={()=>setButtonColor("#3f51b5")}>Log in</button>
+          <p>
+            <a href="/patient/forgotPassword" style={{ color: "#007bff", cursor: "pointer" }}>
+            Forgot Password?
+            </a>
+          </p>
         </form>
       </div>
     </div>
